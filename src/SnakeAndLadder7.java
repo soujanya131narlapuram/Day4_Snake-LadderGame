@@ -9,7 +9,7 @@ public class SnakeAndLadder7 {
             int player=1;
             int prev=2;
             System.out.println("dice throw started");
-            while(position_arr[0]<100 && position_arr[1]<100){
+            while(position_arr[1]<100 && position_arr[2]<100){
                 int dice_num=(int) Math.floor(Math.random()*10)%7;
                 int condition=(int) Math.floor(Math.random()*10)%3;
                 System.out.print("Condition "+condition+" ");
